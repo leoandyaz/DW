@@ -1,0 +1,134 @@
+ <!DOCTYPE html>
+<html>
+
+<head>
+  <title> Mi pagina web </title>
+</head>
+
+<body>
+  Hi World!
+  <!--parrafo-->
+  <p>I want to learn coding</p>
+
+  <!--parrafo de imagen con hipervinculo-->
+  <p>Find free resources on <a href="https://zenva.com" title="Learn Programming">zenva.com</a></p>
+
+  <a href="https://zenva.com" title="Learn Programming"><img class="imag1" alt="imagenal" src="https://www.ceupe.com/images/easyblog_articles/3919/cdigo-fuente.jpg" width="200"></a>
+  <hr>
+  <h2>List 1</h2>
+  <!--unorderlist-->
+  <ul>
+    <li>Sleep</li>
+    <li>Eat healthy</li>
+    <li>Learn HTML</li>
+  </ul>
+
+  <h2>List 2</h2>
+  <!--orderlist-->
+  <ol type="i">
+    <li>Go to the beach</li>
+    <li>Spot a wave</li>
+    <li>Paddle</li>
+  </ol>
+  <hr>
+  <!--elementos de tipo entrada tipo texto-->
+  <form>
+    <div>
+      Name: <input type="text" />
+    </div>
+    <br>
+    <div>
+      Age: <input required type="number" />
+    </div>
+    <br>
+    <!--espaciado-->
+    <div>
+      <input type="submit" value="Save" />
+    </div>
+  </form>
+
+  <hr>
+
+  <h1>Forms</h1>
+  <form>
+    <div>
+      Name: <input type="text" required />
+    </div><br>
+    <div>
+      Email: <input type=text required placeholder="correo@gmail.com" />
+    </div><br>
+    <div>
+      Cel number: <input type=text required placeholder="55 86 89 89 89" />
+    </div><br>
+    <div>
+      Fecha: <input type=text required placeholder="DD/MM/AAAA" />
+    </div><br>
+    <div>
+      <input type="checkbox" checked /> is enrolled?
+    </div>
+    <div>
+      <textarea "5"></textarea>
+    </div><br>
+    <div>
+      Color:
+      <select>
+        <option>Red</option>
+        <option>Blue</option>
+        <option selected>Green</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      Countries:
+      <select multiple>
+        <option>Australia</option>
+        <option selected>USA</option>
+        <option selected>England</option>
+        <option>France</option>
+      </select>
+    </div><br>
+    <div>
+      <input type="submit" value="Save" />
+      <hr>
+      <h2>Tables</h2>
+      <table border>
+        <tr><!--tableraod-->
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Saturaday</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>22</td>
+          <td>33</td>
+          <td>44</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>22</td>
+          <td>33</td>
+          <td>44</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>22</td>
+          <td>33</td>
+          <td>44</td>
+        </tr>
+      </table>
+    </div>
+     <label for="stream">Choose your stream</label>
+    <input list="streams" name="stream" id="stream">
+    <datalist id="streams">
+      <option value="Java">
+      <option value="UI">
+      <option value="BigData">
+      <option value="IMS">
+      <option value="AI">
+    </datalist>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+
+</html>
